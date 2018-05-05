@@ -1,0 +1,34 @@
+body {
+    font-size: 5em;
+    height: 100vh;
+    background-color: black;
+    color: #212121
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.icon {
+    color: yellow;
+    display: inline;
+    margin: 0.5em;
+}
+
+span:hover {
+    color: #E91E63;
+}
+
+span:hover + span {
+    color: #F48FB1;
+}
+
+span:hover + span + span{
+    color: #FCE4EC;
+}
+span:hover + span + span ~ span {
+    color: white;    
+}
